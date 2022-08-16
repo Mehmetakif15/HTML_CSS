@@ -1,0 +1,78 @@
+.box1{
+    /* background-color: tomato; */
+    background-color: hsl(10, 50%, 60%);
+}
+.box2{
+    /* background-color: limegreen; */
+    background-color: #00ff00;
+}
+.box3{
+    /* background-color: darkgoldenrod; */
+    background-color: rgb(75, 220, 150);
+}
+.box4{
+    /* background-color: crimson; */
+    background-color: hsla(25, 70%, 50%, 0.5);
+}
+.box5{
+    background-color: aquamarine;
+}
+.box6{
+    /* background-color: palevioletred; */
+    background-color: rgba(30, 10, 180, 0.5);
+}
+div p{
+    border: 2px solid red;
+}
+.container div p{
+    background-color: limegreen;
+}
+/* p den sonra gelen div */
+p + div{
+    background-color: burlywood;
+}
+p[title="baslik1"]{
+    background-color: skyblue;
+}
+p[title="baslik2"]{
+    background-color: purple;
+}
+h1[title="baslik3"]{
+    background-color: darkgoldenrod;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+p::first-line{
+    font-style: italic;
+    font-weight: bold;
+}
+.par1{
+    border-width: 3px 6px 9px 12px;
+    border-style: solid;
+    border-color:blue yellow red green;
+}
+.par2{
+    border: 5px dashed purple;
+}
+.par3{
+    border: 10px solid pink;
+    border-radius:25%;
+}
+.par4{
+    border: 15px double orange;
+}
+.par5{
+    border: 20px groove blue;
+}
+.kutu1{
+    background-color: coral;
+}
+.kutu2{
+    border:2px solid red;
+    background-color: turquoise;
+    margin: 10px 20px 15px 5px;
+}
+.kutu3{
+    background-color: olive;
+}
