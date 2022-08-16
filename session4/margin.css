@@ -1,0 +1,16 @@
+h1{
+    background-color: aqua;
+}
+#par1{
+    background-color: coral;
+    width: 250px;
+    margin: 50px;
+}
+#par2{
+    background-color: cornflowerblue;
+    margin: inherit;
+}
+.container{
+    border: 2px solid red;
+    margin: 100px;
+}
