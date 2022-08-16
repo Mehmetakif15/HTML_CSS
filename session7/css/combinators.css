@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* desandent selectors: kutu class i icindeki tup leri sec*/
+/* .kutu p {
+    color: red;
+} */
+
+/* child selectors: parenti kutu classi olan tum p leri sec */
+/* .kutu > p {
+    color: green;
+} */
+/* adjacent sibling selectors: h1 elementi kapandiktan sonraki ilk p elementini secer. fakat spesifik olan daha baskindir. (.kutu) daha baskindir.*/
+
+h1 + p {
+    color: pink;
+}
+
+/* general sibling selectors: h1 elementinden sonraki tum p leri secer. */
+h1 ~ p {
+    color: blueviolet;
+}
+
+h3 {
+    margin: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid red;
+    outline: 3px solid yellow;
+    outline-offset: 10px;
+    border-radius: 50%;
+}
