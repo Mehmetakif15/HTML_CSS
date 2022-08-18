@@ -41,7 +41,7 @@
     transform: scale(1.1 , 1.2);
 }
 
-/*************** TRANSLATE - TRANSITION ************/
+/*************** TRANSLATE - TRANSITION - TRANSFORM ************/
 
 .translate {
     background-color: yellow;
@@ -50,14 +50,40 @@
     width: 100px;
     height: 50px;
     margin: 10px;
+    /* transition: background-color 1s, transform 1s; */
+    transition: all 1s;
 }
 .x:hover {
-    transform: translateX(50px);
+    transform: translateX(50px) scale(50%) rotate(180deg);
+    background-color: red;
 }
 .y:active {
     transform: translateY(50px);
+    background-color: fuchsia;
 }
 .xy:hover {
     transform: translate(50px, -50px);
+    background-color: palevioletred;
 }
-
+.btn-div {
+    text-align: center;
+}
+.btn {
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 20px;
+    background-color: darkcyan;
+    border: none;
+    font-size: 1.2rem;
+    transition: background-color 0.5s, color 0.5s;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn:active {
+    transform: scale(95%);
+}
