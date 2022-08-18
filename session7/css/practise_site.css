@@ -8,11 +8,16 @@ body {
 }
 /* NAV-TOP  */
 nav.nav-top {
-    background-image: linear-gradient(45deg, white, purple);
+    background-image: linear-gradient(to right, rgb(169, 152, 152), rgba(226, 55, 226, 0.75));
+    color: white;
+    padding: 0.5rem;
 
 }
 nav.nav-top img {
     width: 50px;
+    border: 1px solid brown;
+    outline-offset: 2px;
+    outline: 3px solid red;
 }
 .nav-top .sign-in {
     float: right;
@@ -22,6 +27,7 @@ nav.nav-top img {
 }
 .nav-top .sign-in a {
     color: white;
+    text-decoration: none;
 }
 .nav-top .sign-in a:hover {
     color: black;
@@ -31,4 +37,44 @@ nav.nav-top img {
 }
 
 /* NAV-MAIN  */
+nav.nav-main {
+    position: sticky;
+    top: 0rem;
+    background-color: rgb(255, 185, 93);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: DynaPuff, cursive;
+    padding: 2rem;
+}
+nav.nav-main a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1.5rem;
+}
+.nav-main a:hover {
+    color: white;
+}
 
+/* MAIN */
+main {
+    padding: 2rem;
+    text-align: justify;
+    font-weight: 600;
+}
+.slack {
+    background-color: red;
+    display:inline-block;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding-left: 0.6rem;
+    padding-top: 0.2rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+
+
+}
