@@ -1,89 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 .yazi {
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem auto;
-    width: 50vw;
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem auto;
+  width: 50vw;
 }
-
 
 /************ ROTATE **************/
 
 .yazi1 {
-    background-color: greenyellow;
-    transform: rotateX(180deg);
-      /*! 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3-boyutlu olarak bakamadığımız için gözükmezler */
+  background-color: greenyellow;
+  transform: rotateX(180deg);
+  /*! 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3-boyutlu olarak bakamadığımız için gözükmezler */
 }
 .yazi2 {
-    background-color: tomato;
-    transform: rotateY(180deg);
+  background-color: tomato;
+  transform: rotateY(180deg);
 }
 .yazi3 {
-    background-color: hotpink;
-    transform: rotate(19deg);
+  background-color: hotpink;
+  transform: rotate(19deg);
 }
-
 
 /*************** SCALE ************/
 .yazi4 {
-    background-color: turquoise;
+  background-color: turquoise;
 }
 .yazi4:hover {
-    transform: scaleX(1.5) scaleY(2);
+  transform: scaleX(1.5) scaleY(2);
 }
 .yazi5 {
-    background-color: darkorange;
+  background-color: darkorange;
 }
 .yazi5:active {
-    transform: scale(1.1 , 1.2);
+  transform: scale(1.1, 1.2);
 }
 
 /*************** TRANSLATE - TRANSITION - TRANSFORM ************/
 
 .translate {
-    background-color: yellow;
-    font-weight: 800;
-    font-size: 1.1rem;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    /* transition: background-color 1s, transform 1s; */
-    transition: all 1s;
+  background-color: yellow;
+  font-weight: 800;
+  font-size: 1.1rem;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  /* transition: background-color 1s, transform 1s; */
+  transition: all 1s;
 }
 .x:hover {
-    transform: translateX(50px) scale(50%) rotate(180deg);
-    background-color: red;
+  transform: translateX(50px) scale(50%) rotate(180deg);
+  background-color: red;
 }
 .y:active {
-    transform: translateY(50px);
-    background-color: fuchsia;
+  transform: translateY(50px);
+  background-color: fuchsia;
 }
 .xy:hover {
-    transform: translate(50px, -50px);
-    background-color: palevioletred;
+  transform: translate(50px, -50px);
+  background-color: palevioletred;
 }
 .btn-div {
-    text-align: center;
+  text-align: center;
 }
 .btn {
-    padding: 1rem;
-    width: 7rem;
-    border-radius: 20px;
-    background-color: darkcyan;
-    border: none;
-    font-size: 1.2rem;
-    transition: background-color 0.5s, color 0.5s;
-    font-weight: 700;
-    position: fixed;
-    bottom: 0;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 20px;
+  background-color: darkcyan;
+  border: none;
+  font-size: 1.2rem;
+  transition: background-color 0.5s, color 0.5s;
+  font-weight: 700;
+  position: fixed;
+  bottom: 0;
 }
 .btn:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .btn:active {
-    transform: scale(95%);
+  transform: scale(95%);
 }
